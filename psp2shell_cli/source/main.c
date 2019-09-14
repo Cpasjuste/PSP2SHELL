@@ -10,6 +10,8 @@
 #include <pthread.h>
 #include <signal.h>
 #include <stdbool.h>
+#include <strings.h>    //bzero
+#include <sys/select.h> //FD_ZERO fd_set
 
 #include "p2s_cmd.h"
 #include "p2s_msg.h"
